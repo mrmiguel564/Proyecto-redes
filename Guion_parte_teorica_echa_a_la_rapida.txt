@@ -1,0 +1,25 @@
+Guion de Presentación - Detección de Comunidades en Redes Complejas
+
+Diapositiva 1 – Portada
+“Buenas tardes. Nosotros somos Nikolas, Franko, Miguel y Dante, y hoy les presentaremos nuestro proyecto sobre Detección de Comunidades en Redes Complejas, desarrollado en el marco de la asignatura Base de Datos 3.”
+
+Diapositiva 2 – Introducción
+“Primero, recordemos qué es una red: un conjunto de elementos conectados entre sí. En ciencia de datos, esto permite representar relaciones —por ejemplo, entre personas, páginas o genes—. Nuestro interés está en las comunidades, grupos de nodos que se conectan más entre ellos que con el resto. El objetivo principal fue aplicar distintos algoritmos para detectar comunidades y analizar su cohesión y estabilidad en una red compleja como Wikipedia.”
+
+Diapositiva 3 – Ejemplo 1 (Biología)
+“En biología, los genes y proteínas forman redes donde cada conexión representa una interacción. Detectar comunidades en estas redes ayuda a descubrir grupos de genes que cooperan en un mismo proceso biológico. Así se pueden identificar funciones celulares o incluso predecir comportamientos de enfermedades.”
+
+Diapositiva 4 – Ejemplo 2 (Wikipedia)
+“Nuestro caso práctico fue la red de artículos de Wikipedia. Cada nodo representa una página y cada enlace una referencia entre artículos. Usando detección de comunidades, identificamos agrupaciones temáticas —como ciencia, historia o arte—, lo que permite visualizar cómo se organiza el conocimiento en la enciclopedia.”
+
+Diapositiva 5 – Modelos y algoritmos
+“Aplicamos tres algoritmos principales: Louvain, que optimiza la modularidad, ideal para redes grandes; Label Propagation, que propaga etiquetas entre nodos; y Girvan–Newman, que elimina enlaces con alta intermediación para revelar jerarquías. Louvain fue el más eficiente, mientras que Girvan–Newman dio una visión más interpretativa, aunque con mayor costo computacional.”
+
+Diapositiva 6 – Métricas y medidas estructurales
+“Evaluamos la red usando varias métricas estructurales: grado y centralidad para identificar los nodos más importantes; densidad y clustering para ver qué tan conectada está la red; y modularidad y conductancia para medir la calidad de las comunidades. Estas métricas nos permitieron comprobar que la red tenía una organización modular fuerte y estable.”
+
+Diapositiva 7 – Análisis y visualización
+“Los resultados mostraron más de once mil comunidades con una modularidad cercana a 0.50, lo que indica buena cohesión interna. En el gráfico podemos ver cómo los nodos de colores distintos representan las diferentes comunidades detectadas. Los nodos centrales funcionan como puentes entre áreas temáticas, mientras los periféricos agrupan temas más específicos.”
+
+Diapositiva 8 – Conclusiones
+“En conclusión, logramos caracterizar la estructura modular de Wikipedia aplicando algoritmos de detección de comunidades. Este análisis muestra cómo el conocimiento se organiza en grupos temáticos bien definidos. En cuanto a desafíos, enfrentamos limitaciones por el tamaño del dataset y el costo de ciertos algoritmos. Como trabajo futuro, proponemos estudiar la evolución temporal de las comunidades e incorporar técnicas de inteligencia artificial para mejorar la detección.”
